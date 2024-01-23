@@ -7,7 +7,3 @@ import com.google.android.play.core.ktx.AppUpdateResult
 public fun rememberInAppUpdateState(): InAppUpdateState {
     return rememberMutableInAppUpdateState()
 }
-
-public interface InAppUpdateState {
-    public val appUpdateResult: AppUpdateResult
-}

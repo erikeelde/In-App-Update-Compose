@@ -101,6 +101,10 @@ dependencies {
     val composeBom = platform(libs.androidx.compose.compose.bom)
     implementation(composeBom)
     androidTestImplementation(composeBom)
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.5.0")
+    implementation("androidx.activity:activity-ktx:1.8.2")
+    implementation("androidx.activity:activity-compose:1.8.2")
+    implementation("com.squareup.logcat:logcat:0.1")
 
     api(libs.com.google.android.play.app.update.ktx)
 
@@ -111,7 +115,7 @@ dependencies {
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.material)
 
-    implementation(platform(libs.com.google.android.play.core))
+    //implementation(platform(libs.com.google.android.play.core))
     implementation(libs.androidx.core.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.com.google.android.material)

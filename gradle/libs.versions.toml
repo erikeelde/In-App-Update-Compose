@@ -29,7 +29,6 @@ androidx-test-ext-junit = "androidx.test.ext:junit:1.1.5"
 com-android-tools-build-gradle = "com.android.tools.build:gradle:8.2.1"
 com-google-android-material = "com.google.android.material:material:1.11.0"
 com-google-android-play-app-update-ktx = { module = "com.google.android.play:app-update-ktx", version.ref = "com-google-android-play" }
-com-google-android-play-core = "com.google.android.play:core:1.10.3"
 io-gitlab-arturbosch-detekt-detekt-gradle-plugin = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "io-gitlab-arturbosch-detekt" }
 junit = "junit:junit:4.13.2"
 org-jetbrains-kotlinx-kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "org-jetbrains-kotlinx" }
